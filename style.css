@@ -264,3 +264,40 @@ correctly beneath each image — no overflow or layout issues.
     max-width: 100%;
   }
 }
+
+/* Custom styles for project cards */
+ul.project-list li.project-item {
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  border: 1px solid #e1e4e8;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+ul.project-list li.project-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.project-item h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.25em;
+}
+
+.project-item h3 a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.project-item h3 a:hover {
+  text-decoration: underline;
+}
+
+.project-item p {
+  margin: 6px 0;
+  color: #444;
+  font-size: 0.98em;
+}
+
+.project-item p strong {
+  color: #222;
+}
